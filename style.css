@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+html{
+    font-size: 62.5%;
+
+}
+h1{
+    color: red;
+    font-size: 10rem;
+}
+@MEDIA(min-width: 640px){
+    body{
+        background-color: brown;
+        h1{
+            color:white;
+            font-size: 2rem;
+        }
+    }
+}
+@media(min-width:800px){
+    body{
+        color: green;
+        font-size: 2rem;
+        h1{
+            color: floralwhite;
+            font-size: 2rem;
+        }
+    }
+}
